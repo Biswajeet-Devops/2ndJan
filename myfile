@@ -1,0 +1,8 @@
+node{
+    stage('build'){
+      git 'https://github.com/Biswajeet-Devops/2ndJan.git'  
+    }
+    stage('deploy'){
+        echo 'this is deployment'
+    }
+}
